@@ -55,13 +55,4 @@ Open `http://localhost:3000` with your browser to see the result.
 - `yarn/npm start` — Starts the application in production mode.
 - `yarn/npm lint` — Runs ESLint for all files in the `src` directory.
 
-### Path Mapping
 
-TypeScript are pre-configured with custom path mappings. To import components or files, use the `~/` prefix.
-
-```tsx
-import { Button } from '~/presentation/components/Button';
-
-// To import images or other files from the public folder
-import avatar from '~/public/avatar.png';
-```
