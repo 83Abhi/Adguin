@@ -119,7 +119,7 @@ Folder Structure Conventions
  .
     ├── ...
     ├── Pubic                   
-    │   ├── settings.json        #add husk and lint-staged
+    │   ├── settings.json            #add husk and lint-staged
     │               
     └── ...
     
