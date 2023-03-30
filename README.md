@@ -2,6 +2,7 @@
 ## Features
 - ⚡️ Next.js 12
 - ⚛️ React 18
+- 📝 Tailwind CSS
 - ⛑ TypeScript
 - ✨ Styled Components - CssInJs for component styling
 - 📏 ESLint — To find and fix problems in your code
@@ -92,6 +93,11 @@ Folder Structure Conventions
     ├── husky                   
     │   ├── pre-commit                             
     └── ...
+    
+    
+- Husky can be used to automate tasks that need to be run before committing code to the repository, such as linting and formatting code.
+
+- Husky can be configured in a Next.js application by adding a "husky" section to the package.json file. Within this section, developers can specify the scripts that should be run as pre-commit hooks.
 
 ### src Files
 
@@ -142,7 +148,16 @@ Folder Structure Conventions
         │           
         └── ...
         
-        - src/application - 
+#### src structure
+- The application layer typically contains components that handle user interactions and perform operations such as fetching data from APIs, manipulating the data, and rendering it to the user interface. In the context of a Next.js application, this layer can include pages, components, and utility functions like Server-side rendering, dynamic imports, routing and api routes.
+
+- Domain layer can include domain entities, domain services, and any business rules or logic that are specific to the application.
+
+- The infrastructure layer holds the architecture and all UI components of the project with different templates.
+
+- All the new pages will be automatically route on the Pages section, which holds all the exported components and render it on the screen.
+
+- The Shared layer is responsible for providing a set of common components and utilities that can be used throughout the application, regardless of the specific use case. Such as data access components, and utility functions.
         
     
 ### Public Files
@@ -153,7 +168,9 @@ Folder Structure Conventions
         │   ├── favicon.ico          
         │   ├── vercel.svg            
         └── ...
-    
+
+- Public section will hold all the static files, logos, svgs, pngs and all is available publically to the users.
+
  ### vscode Files 
  
      .
