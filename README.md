@@ -99,46 +99,46 @@ Folder Structure Conventions
         ├── ...
         ├── src                   
         │   ├── application  
-        │   │            ├── protocols/services
-        │   │            │                   ├──Iinfo-storage.ts
-        │   │            │                   ├──index.ts
-        │   │            │                       
-        │   │            ├── usecases
-        │   │            │          ├── index.ts
-        │   │            │          ├── info-usecase.ts
+        │   │         ├── protocols/services
+        │   │         │         ├──Iinfo-storage.ts
+        │   │         │         └──index.ts
+        │   │         │                       
+        │   │         └── usecases
+        │   │                   ├── index.ts
+        │   │                   └── info-usecase.ts
         │   │
         │   ├── domain   
-        │   │       ├──entities
-        │   │       │        ├──Info.ts
-        │   │       │        ├──index.ts 
-        │   │       ├── usecases
-        │   │       │        ├── Iinfo-usecase.ts
-        │   │       │        ├──index.ts
+        │   │         ├──entities
+        │   │         │         ├──Info.ts
+        │   │         │         ├──index.ts 
+        │   │         └── usecases
+        │   │                   ├── Iinfo-usecase.ts
+        │   │                   └──index.ts
         │   │                 
         │   │          
         │   │          
         │   ├── infrastructure
-        │                 ├── factories
-        │                 │         ├──info-factory.ts
-        │                 │         ├──index.ts
-        │                 │          
-        │            
-        │            
+        │   |         └── factories
+        │   |                   ├──info-factory.ts
+        │   |                   └──index.ts
+        │   |                       
+        │   |         
+        │   |         
         │   ├── pages
-        │           ├──_app.tsx
-        │           ├──_document.tsx
-        │           ├──index.tsx
-        │          
-        │          
-        │          
+        │   |         ├──_app.tsx
+        │   |         ├──_document.tsx
+        │   |         └──index.tsx
+        │   |       
+        │   |       
+        │   |       
         │   └── shared
-        │           ├──settings
-        │           │        ├──jest-setup.ts
-        │           ├──styles
-        │           │       ├──globals.ts
-        │           ├──either
-        │           │       ├──index.ts
-        │           │
+        │             ├──settings
+        │             │        ├──jest-setup.ts
+        │             ├──styles
+        │             │        ├──globals.ts
+        │             └──either
+        │                      └──index.ts
+        │           
         │           
         └── ...
     
