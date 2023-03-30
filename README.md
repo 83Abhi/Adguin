@@ -87,78 +87,78 @@ Folder Structure Conventions
 
 ### Husky Files
 
-.
-├── ...
-├── husky                   
-│   ├── pre-commit                             
-└── ...
+    .
+    ├── ...
+    ├── husky                   
+    │   ├── pre-commit                             
+    └── ...
 
 ### src Files
 
-.
-    ├── ...
-    ├── src                   
-    │   ├── application  
-    │   │            ├── protocols/services
-    │   │            │                   ├──Iinfo-storage.ts
-    │   │            │                   ├──index.ts
-    │   │            │                       
-    │   │            ├── usecases
-    │   │            │          ├── index.ts
-    │   │            │          ├── info-usecase.ts
-    │   │
-    │   ├── domain   
-    │   │       ├──entities
-    │   │       │        ├──Info.ts
-    │   │       │        ├──index.ts 
-    │   │       ├── usecases
-    │   │       │        ├── Iinfo-usecase.ts
-    │   │       │        ├──index.ts
-    │   │                 
-    │   │          
-    │   │          
-    │   ├── infrastructure
-    │                 ├── factories
-    │                 │         ├──info-factory.ts
-    │                 │         ├──index.ts
-    │                 │          
-    │            
-    │            
-    │   ├── pages
-    │           ├──_app.tsx
-    │           ├──_document.tsx
-    │           ├──index.tsx
-    │          
-    │          
-    │          
-    │   └── shared
-    │           ├──settings
-    │           │        ├──jest-setup.ts
-    │           ├──styles
-    │           │       ├──globals.ts
-    │           ├──either
-    │           │       ├──index.ts
-    │           │
-    │           
-    └── ...
+    .
+        ├── ...
+        ├── src                   
+        │   ├── application  
+        │   │            ├── protocols/services
+        │   │            │                   ├──Iinfo-storage.ts
+        │   │            │                   ├──index.ts
+        │   │            │                       
+        │   │            ├── usecases
+        │   │            │          ├── index.ts
+        │   │            │          ├── info-usecase.ts
+        │   │
+        │   ├── domain   
+        │   │       ├──entities
+        │   │       │        ├──Info.ts
+        │   │       │        ├──index.ts 
+        │   │       ├── usecases
+        │   │       │        ├── Iinfo-usecase.ts
+        │   │       │        ├──index.ts
+        │   │                 
+        │   │          
+        │   │          
+        │   ├── infrastructure
+        │                 ├── factories
+        │                 │         ├──info-factory.ts
+        │                 │         ├──index.ts
+        │                 │          
+        │            
+        │            
+        │   ├── pages
+        │           ├──_app.tsx
+        │           ├──_document.tsx
+        │           ├──index.tsx
+        │          
+        │          
+        │          
+        │   └── shared
+        │           ├──settings
+        │           │        ├──jest-setup.ts
+        │           ├──styles
+        │           │       ├──globals.ts
+        │           ├──either
+        │           │       ├──index.ts
+        │           │
+        │           
+        └── ...
     
 ### Public Files
 
-.
-    ├── ...
-    ├── Pubic                   
-    │   ├── favicon.ico          
-    │   ├── vercel.svg            
-    └── ...
+    .
+        ├── ...
+        ├── Pubic                   
+        │   ├── favicon.ico          
+        │   ├── vercel.svg            
+        └── ...
     
  ### vscode Files 
  
- .
-    ├── ...
-    ├── Pubic                   
-    │   ├── settings.json            #add husk and lint-staged
-    │               
-    └── ...
+     .
+        ├── ...
+        ├── Pubic                   
+        │   ├── settings.json            #add husk and lint-staged
+        │               
+        └── ...
     
  
 
