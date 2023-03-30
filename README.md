@@ -141,6 +141,9 @@ Folder Structure Conventions
         │           
         │           
         └── ...
+        
+        - src/application - 
+        
     
 ### Public Files
 
